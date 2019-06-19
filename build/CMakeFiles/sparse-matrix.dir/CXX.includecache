@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/yuri/develop/ads/sparse-matrix/element_node.h
+node.h
+/Users/yuri/develop/ads/sparse-matrix/node.h
+
+/Users/yuri/develop/ads/sparse-matrix/header_node.h
+node.h
+/Users/yuri/develop/ads/sparse-matrix/node.h
+
+/Users/yuri/develop/ads/sparse-matrix/main.cpp
+iostream
+-
+matrix.h
+/Users/yuri/develop/ads/sparse-matrix/matrix.h
+
+/Users/yuri/develop/ads/sparse-matrix/matrix.h
+stdexcept
+-
+header_node.h
+/Users/yuri/develop/ads/sparse-matrix/header_node.h
+element_node.h
+/Users/yuri/develop/ads/sparse-matrix/element_node.h
+
+/Users/yuri/develop/ads/sparse-matrix/node.h
+

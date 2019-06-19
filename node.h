@@ -6,11 +6,15 @@ class Matrix;
 
 template <typename T>
 class Node {
-protected:
-    Node<T> *next, *down;
+	protected:
+		Node<T> *down, *right;
 
 public:
-    explicit Node();
+    explicit Node(Node<T> *d, Node<T> *r) : down(d), right(r)
+	{
+	}
+
+	virtual ~Node() = default;
 
     friend class Matrix<T>;
 };
