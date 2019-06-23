@@ -176,4 +176,6 @@ public:
     //~Matrix();
 };
 
+// Faltaron muchas cosas de la matriz, al menos el esperaba el operador ()
+
 #endif //SPARSE_MATRIX_MATRIX_H

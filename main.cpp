@@ -1,12 +1,12 @@
 #include <iostream>
 
-//#include "tester/tester.h"
-#include "matrix.h"
+#include "tester/tester.h"
+//#include "matrix.h"
 
 int main()
 {
-	//Tester::execute();
-	Matrix<int> m(3, 3);
+	Tester::execute();
+	/* Matrix<int> m(3, 3);
 	m.set(0, 0, 1);
 	m.set(0, 1, 2);
 	m.set(0, 2, 3);
@@ -18,7 +18,7 @@ int main()
 	m.set(2, 2, 9);
 
 	m.set(0, 1, -2);
-	m.print();
+	m.print();*/
     return EXIT_SUCCESS;
 }
 
